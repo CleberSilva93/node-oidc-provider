@@ -1,0 +1,30 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.ts",
+    "ts": "ts-node-dev app.ts"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "ioredis": "^5.0.3",
+    "lodash": "^4.17.21",
+    "lowdb": "^3.0.0",
+    "lru-cache": "^7.7.3",
+    "mongodb": "^4.5.0",
+    "nodemon": "^2.0.15",
+    "oidc-provider": "^7.10.6",
+    "openid-connect": "^1.2.4",
+    "ts-node-dev": "^1.1.8",
+    "tsc": "^2.0.4",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.1"
+  }
+}
